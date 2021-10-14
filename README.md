@@ -8,5 +8,9 @@ MAIL: DGONCALVES@FRBA.UTN.EDU.AR
 
 CURSO : Desarrollador Web Inicial UTN
 
+CURSADA: LUNES Y MIERCOLES 9hs a 12hrs
+
+TURNO: MAÑANA
+
 AÑO: 2021
 
