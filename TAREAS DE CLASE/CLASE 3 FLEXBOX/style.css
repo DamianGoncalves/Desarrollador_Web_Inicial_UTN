@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    background-color: white;
+    position: block;
+}
+
+/* ------------------------------------ */
+/* -------------------NAV------------- */
+
+nav{
+    
+width: 100%;
+height: 50px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo_nav{
+    padding-left: 10vw;
+}
+
+.lista_nav{
+    display: flex;
+    list-style: none;
+   padding-right: 20vw;
+   
+  
+}
+
+li a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------ */
+/* -------------------HEADER------------- */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: #ADD9E6;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+div {
+    border: 0px;
+    margin-left: 20vw;
+    width: 100px;   
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.Imagen-header{
+    margin-right: 20vW ;
+
+}
+
+/* ---------------------------------------- */
+/* -------------------SECTION------------- */
+
+section{
+    background-color: white;
+    width: 100%;
+    
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.articulos{
+    width: 300px;
+    height: 400px;
+    border: 7px solid #A0D4A6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 5vw;
+}
+
+.img-articulo{
+    padding:0px;
+    margin: 0px;
+    position: sticky;
+}
+.boton-articulo{
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: #A0D4A6;
+    padding-top: 7px ;
+
+}
+
+
+
+
+/* --------------------------------------- */
+/* -------------------FOOTER------------- */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #ADD9E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img-footer{
+    width: 75PX;
+    height: 75PX;
+    margin-left: 10vw;
+}
+
+
+.titulo-footer{
+    color: white; 
+    text-align: start;
+    margin-left: 5vw;
+    width: 100%;
+}
+
+.copyright{
+    color: white; 
+    text-align: end;
+    margin-right: 10vw;
+    margin-top: 50px;
+    width: 100%;
+}

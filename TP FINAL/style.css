@@ -1,0 +1,54 @@
+body{
+    margin= 0px;
+
+}
+
+/*-----------------------------------*/
+/*-------------NAV------------------*/
+/*---------------------------------*/
+
+nav{
+    width: 100vw;
+    height: 100px;
+    position:fixed;
+    
+}
+
+/* logo del navegador*/
+.img_nav{
+    width: 75PX;
+    
+    margin-right: 75px;
+    margin-left: 10vw;
+}
+
+/* botones de navegacion*/
+.barra_nav{ 
+    margin-right: 10VW;
+}
+/*-----------------------------------*/
+/*------------HEADER----------------*/
+/*---------------------------------*/
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.514);
+  
+}
+.carousel{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+
+/*-----------------------------------*/
+/*------------FOOTER----------------*/
+/*---------------------------------*/
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+}
