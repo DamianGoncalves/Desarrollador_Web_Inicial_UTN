@@ -1,16 +1,17 @@
 body{
-    margin= 0px;
+    margin = 0px;
 
 }
 
 /*-----------------------------------*/
-/*-------------NAV------------------*/
+/*-------------HEADER------------------*/
 /*---------------------------------*/
 
-nav{
+header{
     width: 100vw;
     height: 100px;
     position:fixed;
+    margin-bottom: 0px;
     
 }
 
@@ -27,21 +28,92 @@ nav{
     margin-right: 10VW;
 }
 /*-----------------------------------*/
-/*------------HEADER----------------*/
+/*------------MAIN----------------*/
 /*---------------------------------*/
-
-header{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+.home{
+    border: 0px;
+    padding: 0px;
     background-color: rgba(128, 128, 128, 0.514);
-  
+}
+.clipped{
+    position: absolute;
+    z-index: -1;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+    
+}
+/*---------SECTION 1 CARRUCEL-------*/
+
+.exhibitor{/*padre del carrusel*/
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+
 }
 .carousel{
-    padding-top: 50px;
-    padding-bottom: 200px;
+    width: 80vw;
+  
+}
+/*---------SECTION 2 MARCAS-------*/
+
+.marcas-conteiner{
+    display: grid;
+    padding: 0vw 10vw;
+    grid-template-columns: REPEAT(3, 1FR);
+    grid-auto-rows: 100px;
+}
+.img-marcas{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+/*---------SECTION 3 ARTICULOS (cards)-------*/
+
+.cards-section{/* section contiene a las cards y al titulo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo_cards{
+  
+    font-size: 5vw;
+    margin: 50px 0px;
+    text-align: center;
+    border-top: 2px double rgba(95, 93, 93, 0.986);
+
 }
 
+.card-conteiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 0px 10vw;
+
+}
+
+.card{
+    width: 200px;
+    border: 10 solid black;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    text-align: center;
+}
 
 /*-----------------------------------*/
 /*------------FOOTER----------------*/
