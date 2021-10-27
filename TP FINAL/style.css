@@ -1,11 +1,11 @@
 body{
-    margin = 0px;
+    margin : 0px;
 
 }
 
-/*-----------------------------------*/
-/*-------------HEADER------------------*/
-/*---------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------------HEADER-----------------------------------*/
+/*--------------------------------------------------------------------*/
 
 header{
     width: 100vw;
@@ -27,14 +27,16 @@ header{
 .barra_nav{ 
     margin-right: 10VW;
 }
-/*-----------------------------------*/
-/*------------MAIN----------------*/
-/*---------------------------------*/
+/*---------------------------------------------------------------------*/
+/*----------------------------MAIN------------------------------------*/
+/*-------------------------------------------------------------------*/
 .home{
     border: 0px;
     padding: 0px;
     background-color: rgba(128, 128, 128, 0.514);
 }
+
+/*----------h1 oculto------------*/
 .clipped{
     position: absolute;
     z-index: -1;
@@ -115,12 +117,133 @@ padding-top: 50px;
     text-align: center;
 }
 
-/*-----------------------------------*/
-/*------------FOOTER----------------*/
-/*---------------------------------*/
+/*---------------------------------------------------------------*/
+/*-------------------------FOOTER-------------------------------*/
+/*-------------------------------------------------------------*/
 
-footer{
+.footer_conteiner{
     width: 100vw;
-    height: 200px;
     background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr , 2fr , 1fr;
+    padding: 50px 10vw;
+}
+
+/*-----------columna 1 footer------------------------*/
+.texto_ubicacion{
+    color: white;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.google_maps{
+    grid-row: 2/4;
+    grid-column: 1/2;
+    padding-right: 50px;
+}
+
+
+
+
+/*----------columna 2 y 3 footer---------------*/
+
+.horario_contacto{/*contenedor de datos de horarios y contacto*/
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color:white;
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    border-bottom: 5px solid white;
+}
+
+.contacto{/*texto del celelular del locla*/
+    padding-left: 50px;
+}
+
+/*------------formulario de mail-----------------------*/
+
+.mail_conteiner{/*contiene titulo button e input para mandar mal*/
+    grid-column: 2/4;
+    grid-row: 2/3;
+    height: 100%;
+    
+}
+
+.mail_conteiner .texto_consulta{
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+   
+}
+
+.mail_conteiner .formulario{/*contenedor de todos los input text*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.formulario .datos_personales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.boton_enviar{
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.boton_enviar a{
+    margin-right: 0%;
+    width: 75px;
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(176,136,77);
+    border-radius: 5px;
+    color: rgb(176,136,77);
+    
+}
+
+.boton_enviar a:hover{
+    background-color: rgb(176,136,77);
+    color:white;
+}
+/*-----------logo de seminare-------------------*/
+
+.logo_footer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.logo_footer a img{
+    height: 150px;
+    padding-top: 50px;
+}
+
+/*--------------------columna 3 (redes sociales)-------------------*/
+
+.redes_sociales {
+    grid-column: 3/4;
+    grid-row: 3/4;
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+}
+.redes_sociales a img{
+    width: 30px;
+    height: 30px;
+}
+
+.redes_sociales .instagram{
+    padding-left: 25px;
 }
