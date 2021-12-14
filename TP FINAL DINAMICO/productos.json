@@ -1,0 +1,39 @@
+[   
+    
+    {
+        "genero":"masculino",
+        "temporada":true,
+        "imagen":"./img/cards/header_1.png",
+        "titulo":"HOLAAA",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
+        "precio":1
+    },
+
+    {
+        "genero":"hola",
+        "temporada":true,
+        "imagen":"./img/foto-header.jpg",
+        "titulo":"HLAAA",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
+        "precio":544
+    },
+    {
+        "genero":"masculino",
+        "temporada":false,
+        "imagen":"./img/foto-header.jpg",
+        "titulo":"HLAAA",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
+        "precio":299
+    },
+    {
+        "genero":"femenino",
+        "temporada":true,
+        "imagen":"./img/foto-header.jpg",
+        "titulo":"HLAAA",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
+        "precio":40
+    }
+    
+]
+
+        
