@@ -2,37 +2,137 @@
     
     {
         "genero":"masculino",
-        "temporada":true,
-        "imagen":"./img/cards/header_1.png",
-        "titulo":"HOLAAA",
-        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
-        "precio":1
+        "temporada":false,
+        "imagen":"./img/cards/hombre/conjunto hombre 1.jpeg",
+        "titulo":"CONJUNTO DE VERANO",
+        "descripcion":"Bermuda moztaza talles del 38 al 54 y remera narrow de S al XXL ",
+        "precio": 5000
     },
 
     {
-        "genero":"hola",
-        "temporada":true,
-        "imagen":"./img/foto-header.jpg",
-        "titulo":"HLAAA",
-        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
-        "precio":544
+        "genero":"masculino",
+        "temporada":false,
+        "imagen":"./img/cards/hombre/conjunto hombre 2.jpeg",
+        "titulo":"CONJUNTO DE VERANO",
+        "descripcion":"Bermuda de jean talles del 38 al 54 y camisa narrow de S al XXL",
+        "precio":6000
     },
     {
         "genero":"masculino",
         "temporada":false,
-        "imagen":"./img/foto-header.jpg",
-        "titulo":"HLAAA",
-        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
-        "precio":299
+        "imagen":"./img/cards/hombre/conjunto hombre invierno 1 .jpeg",
+        "titulo":"CONJUNTO DE INVIERNO",
+        "descripcion":"Buzo coleccion invierno narrow talles del S al XXL y pantalon largo de jean talles 38 al 54",
+        "precio":8000
     },
     {
-        "genero":"femenino",
+        "genero":"masculino",
         "temporada":true,
-        "imagen":"./img/foto-header.jpg",
-        "titulo":"HLAAA",
-        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate, blanditiis magnam nulla unde, neque, ducimus consequuntur officia sequi accusamus incidunt non aliquid hic pariatur voluptatem. Optio inventore accusamus earum!",
-        "precio":40
+        "imagen":"./img/cards/hombre/remeras narrow.jpg",
+        "titulo":"PROMO REMERAS",
+        "descripcion":"PROMO remeras Narrow 2x$3000 talles del S al XL",
+        "precio":3000
     }
+    ,
+    {
+        "genero":"masculino",
+        "temporada":true,
+        "imagen":"./img/cards/hombre/temporada hombre 1.jpg",
+        "titulo":"PROMO VERANO",
+        "descripcion":"Bermuda de jean talles del 38 al 54 y remera narrow de S al XXL ",
+        "precio": 5000
+    }
+    ,
+    {
+        "genero":"masculino",
+        "temporada":true,
+        "imagen":"./img/cards/hombre/temporada hombre 2.jpeg",
+        "titulo":"PROMO VERANO",
+        "descripcion":"Bermuda mostaza talles del 38 al 54 y remera narrow de S al XXL ",
+        "precio": 5000
+    }
+    ,
+    {
+        "genero":"masculino",
+        "temporada":true,
+        "imagen":"./img/cards/hombre/temporada hombre 3.jpeg",
+        "titulo":"PROMO VERANO",
+        "descripcion":"Bermuda de jean talles del 38 al 54 y camisa manga corta narrow de S al XXL ",
+        "precio": 6000
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":false,
+        "imagen":"./img/cards/mujer/conjunto floreado.jpg",
+        "titulo":"CONJUNTO FLOREADO",
+        "descripcion":"Llego el verano y no pueden fallar los conjuntos floreados de lino. Talles del S al XL",
+        "precio": 3000
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":false,
+        "imagen":"./img/cards/mujer/conjunto invierno mujer 1.jpeg",
+        "titulo":"MEDIA ESTACION",
+        "descripcion":"Sweter de media estacion Talle unico y pantalon largo de jean talles del 36 al 48",
+        "precio": 6000
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":false,
+        "imagen":"./img/cards/mujer/conjunto invierno mujer 2.jpeg",
+        "titulo":"MEDIA ESTACION",
+        "descripcion":"Sweter de media estacion Talle unico y pantalon largo de jean talles del 36 al 48",
+        "precio": 6000
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":true,
+        "imagen":"./img/cards/mujer/conjunto verano mujer 1.jpeg",
+        "titulo":"CONJUNTO VERANO",
+        "descripcion":"Se vienen los dias de calor y no te podes perder esta promo. Body y Kimono talles unicos mas Short del 36 al 46",
+        "precio": 8000
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":true,
+        "imagen":"./img/cards/mujer/conjunto verano mujer 2.jpeg",
+        "titulo":"CONJUNTO VERANO",
+        "descripcion":"Se vienen los dias de calor y no te podes perder esta promo. Body y Kimono talles unicos mas Short del 36 al 46",
+        "precio": 8000
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":true,
+        "imagen":"./img/cards/mujer/mono primavera.jpg",
+        "titulo":"MONO PRIMAVERA",
+        "descripcion":"Mono de fibrana bien primaveral Talle unico",
+        "precio": 3500
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":false,
+        "imagen":"./img/cards/mujer/sweter mujer.jpeg",
+        "titulo":"Sweters proximo",
+        "descripcion":"Sweters Proximo Talles del S al XL",
+        "precio": 2500
+    }
+    ,
+    {
+        "genero":"mujer",
+        "temporada":true,
+        "imagen":"./img/cards/mujer/temporada mujer 2.jpg",
+        "titulo":"CONJUNTO FLOREADO",
+        "descripcion":"Llego el verano y no pueden fallar los conjuntos floreados de lino. Talles del S al XL",
+        "precio": 3000
+    }
+    
     
 ]
 
